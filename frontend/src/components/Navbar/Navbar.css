@@ -1,0 +1,46 @@
+/* Profile Dropdown Styling */
+.profile-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-icon {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.profile-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: #333;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+  background-color: #f7f7f7;
+}
+
+/* Update Navbar Links for Active State */
+.navbar-links li a.active,
+.dropdown-content a:hover {
+  color: #ff6347; /* Accent color */
+}
+
+/* Other styles remain unchanged */
