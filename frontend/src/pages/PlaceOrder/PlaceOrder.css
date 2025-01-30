@@ -1,0 +1,39 @@
+.place-order-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .address-section {
+    margin-bottom: 20px;
+  }
+  
+  .address-section input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .items-summary {
+    margin-bottom: 20px;
+  }
+  
+  .order-item {
+    margin-bottom: 10px;
+  }
+  
+  .place-order-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
